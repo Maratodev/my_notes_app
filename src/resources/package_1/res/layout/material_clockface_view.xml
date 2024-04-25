@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<merge android:layout_gravity="center"
+       android:id="@id/material_clock_face"
+       android:layout_width="256.0dp"
+       android:layout_height="256.0dp" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:notesapp="http://schemas.android.com/apk/res-auto">
+  <com.google.android.material.timepicker.ClockHandView android:id="@id/material_clock_hand"
+                        android:tag="skip"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        notesapp:layout_constraintBottom_toBottomOf="parent"
+                        notesapp:layout_constraintEnd_toEndOf="parent"
+                        notesapp:layout_constraintStart_toStartOf="parent"
+                        notesapp:layout_constraintTop_toTopOf="parent"
+                        notesapp:selectorSize="24.0dp" />
+</merge>
